@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap');
+    </style>
+  <title>formulaire</title>
+</head>
+<body>
+  <form action="">
+    <fieldset>
+      <legend>Who are you?</legend>
+      <ol>
+        <li>
+          <label for="prénom">surname</label>
+          <input id="surname" name="surname" type="text" placeholder="surname" required autofocus> 
+        </li>
+        <li>
+          <label for="name">name</label>
+          <input id="name" name="name" type="text" placeholder="name" required >
+        </li>
+        <li>
+          <label for="email">email</label>
+          <input id="email" name="email" type="email" placeholder="example@domain" required>
+        </li>
+        <li>
+          <label for="phone">phone</label>
+          <input id="phone" name="phone" type="tel" placeholder="for example: 0613243546" pattern="[0-9]{10}" required>
+        </li>
+      </ol>
+    </fieldset>
+
+    <fieldset>
+      <legend>Delivery address</legend>
+      <ol>
+        <li>
+          <label for="address">Address</label>
+          <textarea name="address" id="address" rows="5" required></textarea>
+        </li>
+        <li>
+          <label for="postalcode">Postal code</label>
+          <input id="postalcode" name="postalcode" type="text" required>
+        </li>
+        <li>
+          <label for="promocode">Promo code</label>
+          <input id="promocode" name="promocode" type="text" pattern="[A-F][0-9]{5}">
+        </li>
+      </ol>
+    </fieldset>
+  </form> 
+</body>
+</html>

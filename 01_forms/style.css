@@ -1,0 +1,79 @@
+form {
+  background-color: #fc8d32;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  padding: 20px;
+  width: 400px;
+}
+
+form ol {
+  padding: 0px;
+}
+
+form fieldset {
+  border: none;
+  margin-bottom: 10px;
+}
+
+form fieldset:last-of-type {
+  margin-bottom: 0;
+}
+
+form legend {
+  font-family: 'Noto Sans JP', sans-serif;
+  color: #6f3c13;
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+form ol li {
+  font-family: 'Noto Sans JP', sans-serif;
+  background: rgba(255,255,255,.3);
+  border-color: rgba(255,255,255,.6);
+  border-style: solid;
+  border-width: 2px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  line-height: 30px;
+  list-style: none;
+  padding: 5px 10px;
+  margin-bottom: 2px;
+}
+
+form label {
+  float: left;
+  font-size: 13px;
+  width: 100px;
+  
+}
+
+form input,
+form textarea {
+  font-family: 'Noto Sans JP', sans-serif;
+  background: #ffffff;
+  border: none;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+  font: 400 14px ;
+  outline: none;
+  padding: 5px;
+  width: 220px;
+}
+
+form input:focus,
+form textarea:focus {
+  background: #eaeaea;
+}
+
+form input:invalid {
+  border: 1px solid red;
+}
+
+form input:valid {
+  border: 1px solid green;
+}
