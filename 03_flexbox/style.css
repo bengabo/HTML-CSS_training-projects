@@ -1,0 +1,22 @@
+#container {
+  display: flex;
+  min-height: 400px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#id1 {
+  order: 3;
+  flex: 1;
+}
+
+#id2 {
+  align-self: flex-start;
+  order: 1;
+  flex: 5;
+}
+
+#id3 {
+  order: 2;
+  flex: 1;
+}
